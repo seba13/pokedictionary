@@ -57,7 +57,7 @@ xhr.addEventListener( 'load', (data)=>{
             img = document.createElement("IMG")
             img.setAttribute("src",poke.sprites.front_default)
             img.classList.add("tam")
-            tdName.textContent = poke.name;
+            tdName.textContent = poke.name + " #"+poke.id;
             tdImg.appendChild(img);
 
             row.appendChild(tdName)
@@ -72,6 +72,7 @@ xhr.addEventListener( 'load', (data)=>{
 })
 
 xhr.send()
+
 
 
 
