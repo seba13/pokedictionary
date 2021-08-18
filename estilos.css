@@ -1,0 +1,10 @@
+.tabla, .tabla th, .tabla td{
+    border: 2px solid lightseagreen;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 2rem;
+}
+
+.tam{
+    width: 350px;
+}
